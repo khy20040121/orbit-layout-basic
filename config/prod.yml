@@ -1,3 +1,10 @@
+# 生产环境配置（prod）
+# 说明：
+# - 推荐用于线上/预发环境
+# - 可通过 APP_CONF 或启动参数 -conf 指定本文件
+#   示例：APP_CONF=config/prod.yml go run ./cmd/server
+# - 建议将 env 设置为 prod，以便日志等按生产策略运行
+# - 生产环境请避免在配置中保留明文密钥与密码（可用环境变量或密钥管理服务）
 env: local
 http:
   port: 8000

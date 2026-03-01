@@ -1,3 +1,14 @@
+# 本地开发环境配置（local）
+# 说明：
+# - 默认启动会加载本文件（config/local.yml）
+# - 可通过 APP_CONF 或启动参数 -conf 指定其他配置文件
+#   示例：APP_CONF=config/prod.yml go run ./cmd/server
+# - 字段用途：
+#   - env：环境标识
+#   - http.port：服务端口
+#   - security.*：安全相关（按需接入）
+#   - data.*：外部依赖（按需接入）
+#   - log.*：日志级别/格式/滚动等
 env: local
 http:
   port: 8000
@@ -9,7 +20,7 @@ security:
     key: 1234
 data:
   mysql:
-    user: root:123456@tcp(127.0.0.1:3380)/user?charset=utf8mb4&parseTime=True&loc=Local
+    user: root:1@tcp(127.0.0.1:3306)/user?charset=utf8mb4&parseTime=True&loc=Local
   redis:
     addr: 127.0.0.1:6350
     password: ""

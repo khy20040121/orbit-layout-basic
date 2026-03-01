@@ -1,11 +1,12 @@
 package handler
 
 import (
-	"github.com/gin-gonic/gin"
-	"github.com/go-nunu/nunu-layout-basic/internal/service"
-	"github.com/go-nunu/nunu-layout-basic/pkg/helper/resp"
-	"go.uber.org/zap"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
+	"github.com/khy20040121/orbit-layout-basic/internal/service"
+	"github.com/khy20040121/orbit-layout-basic/pkg/helper/resp"
+	"go.uber.org/zap"
 )
 
 func NewUserHandler(handler *Handler,

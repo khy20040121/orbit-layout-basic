@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"github.com/go-nunu/nunu-layout-basic/internal/model"
+	"github.com/khy20040121/orbit-layout-basic/internal/model"
 )
 
 type UserRepository interface {

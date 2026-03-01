@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/go-nunu/nunu-layout-basic/internal/model"
-	"github.com/go-nunu/nunu-layout-basic/internal/repository"
+	"github.com/khy20040121/orbit-layout-basic/internal/model"
+	"github.com/khy20040121/orbit-layout-basic/internal/repository"
 )
 
 type UserService interface {

@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"github.com/go-nunu/nunu-layout-basic/pkg/log"
+	"github.com/khy20040121/orbit-layout-basic/pkg/log"
 	"gorm.io/gorm"
 )
 

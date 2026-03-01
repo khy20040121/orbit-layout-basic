@@ -8,12 +8,12 @@ package wire
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/go-nunu/nunu-layout-basic/internal/handler"
-	"github.com/go-nunu/nunu-layout-basic/internal/repository"
-	"github.com/go-nunu/nunu-layout-basic/internal/server"
-	"github.com/go-nunu/nunu-layout-basic/internal/service"
-	"github.com/go-nunu/nunu-layout-basic/pkg/log"
 	"github.com/google/wire"
+	"github.com/khy20040121/orbit-layout-basic/internal/handler"
+	"github.com/khy20040121/orbit-layout-basic/internal/repository"
+	"github.com/khy20040121/orbit-layout-basic/internal/server"
+	"github.com/khy20040121/orbit-layout-basic/internal/service"
+	"github.com/khy20040121/orbit-layout-basic/pkg/log"
 	"github.com/spf13/viper"
 )
 
